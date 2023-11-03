@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>login</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/formulario.css'>
+    <script src='code.js'></script>
+</head>
+
+<body>
+  <section id="contacto">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-title-divider"></div>
+          <p class="section-description" data-aos="zoom-in"></p>
+            <form action="backend/enviar.php" method="post" id="form" >
+              <div class="form_container">
+                   <h2 class="container" class="h2_login1">Login</h2>
+                   <h5 class="h5_login">bienbenido Sr USUARIO</h5>
+                   <input name="name" type="text" id="nombre" class="form_input" placeholder="Nombre" required>
+                   <input name="contraseña" type="text" id="contraseña" class="form_input" placeholder="Contraseña" required>
+                   <input name="contraseña2" type="text" id="contraseña2" class="form_input" placeholder="Repite la Contraseña" required>
+                   <input name="Gmail"   type="text" id="gmail" class="form_input" placeholder="Gmail" required>
+                   <textarea name="Mensaje" id="mensaje" class="form_input form_input--message" placeholder="Mensaje" required></textarea>
+
+                   <input type="submit" name="enviar" value="Enviar" class="form_cta">
+
+
+                   <script src="/backend/form.js"></script>
+              </div>
+            </form>
+        </div>
+      </div>
+      <script>
+        AOS.init();
+      </script>
+</body>
+
+</html>

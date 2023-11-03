@@ -1,0 +1,6 @@
+const nombre = document.getElementById0("name")
+const contraseña = document.getElementById0("name")
+const contraseña2 = document.getElementById0("name")
+const Gmail = document.getElementById0("name")
+const mesaje = document.getElementById0("name")
+const form = document.getElementById0("name")

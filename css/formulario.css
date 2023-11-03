@@ -1,0 +1,82 @@
+body{
+  font-family: sans-serif;
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);;
+}
+
+.form {
+  background: #C9CCD3;
+  background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+  background-blend-mode: lighten;
+  text-align: center;
+  margin-left: 529px;
+  margin-bottom: 20px;
+  border-radius: 1em;
+  margin-left: 34%;
+  width: 90%;
+  max-width: 400px;
+  padding: 3.5em 1.5em;
+  margin-top: 95px;
+}
+
+.form_container {
+  width: 100%;
+  display: grid;
+  gap: 1em;
+  grid-auto-columns: 100%;
+}
+
+.form_input {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: .8em 1em;
+  outline: none;
+  border: none;
+  border: 1px solid #bbb0b0;
+  border-radius: 0.2em;
+}
+
+.form_input--message {
+  resize: none;
+  padding: 1.0em 1em;
+}
+.h2-form{
+  font-size: 36px;
+  color: black;
+  font-family: unset;
+}
+.container{
+  margin-bottom: 10px;
+}
+.form_cta {
+  font-family: inherit;
+  font-size: 1rem;
+  background-color: #00a6ff;
+  color: #ffffff;
+  border: none;
+  font-weight: 300;
+  padding: .7em 0;
+  border-radius: .2em;
+  cursor: pointer;
+  font-weight: 400;
+}
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+  filter: contrast(1);
+  color: #000000;
+}
+
+#footer .copyright {
+  text-align: center;
+}
+
+#footer .credits {
+  text-align: center;
+  font-size: 13px;
+  color: #000000;
+}
+.h5_login{
+  margin: 0;
+}
